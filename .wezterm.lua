@@ -49,8 +49,8 @@ config.front_end = "OpenGL"
 
 -- On some Linux/Wayland setups, disabling hardware cursor helps
 -- Uncomment this if cursor still disappears
-config.force_disable_hardware_cursor = true
-config.enable_wayland = false
+-- config.force_disable_hardware_cursor = true
+-- config.enable_wayland = false
 
 -- ==========================
 
