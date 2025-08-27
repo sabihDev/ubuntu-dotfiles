@@ -5,6 +5,7 @@ local servers = {
   "html",
   "tsserver",
   "vue_language_server", -- Note: 'vue-language-server' in Mason becomes 'vue_language_server' in nvim-lspconfig
+  "prisma_language_server",
 }
 vim.lsp.enable(servers)
 

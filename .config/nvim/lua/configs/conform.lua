@@ -3,6 +3,13 @@ local options = {
     lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
+    javascript = { "prettier" },
+    javascriptreact = { "prettier" },
+    typescript = { "prettier" },
+    typescriptreact = { "prettier" },
+    json = { "prettier" },
+    markdown = { "prettier" },
+    prisma = { "prismaFmt" },
   },
 
   format_on_save = {

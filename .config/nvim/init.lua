@@ -4,6 +4,7 @@ vim.o.swapfile = false
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.wrap = false
+vim.opt.mouse = "a" -- enable mouse support
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
